@@ -1,0 +1,8 @@
+version: '3'
+services:
+  movies:
+    image: vamc2001/paytmmovies:latest
+    ports:
+      -  "81:80"
+    deploy:
+      replicas: 3 
