@@ -3,18 +3,18 @@ services:
   movies:
     image: vamc2001/phonepaymovies:latest
     ports:
-      -  "94:80"
+      -  "84:80"
     deploy:
       replicas: 3
   train:
     image: vamc2001/phonepaytrain:v1
     ports:
-      -  "95:80"
+      -  "85:80"
     deploy:
       replicas: 3
   dth:
     image: vamc2001/phonepaydth:v1
     ports:
-      -  "96:80"
+      -  "66:80"
     deploy:
       replicas: 3
