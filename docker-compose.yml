@@ -18,4 +18,3 @@ services:
       - "83:80'
     deploy:
       replicas: 3
-      
