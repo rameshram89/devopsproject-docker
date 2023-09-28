@@ -5,4 +5,17 @@ services:
     ports:
       -  "81:80"
     deploy:
-      replicas: 3 
+      replicas: 3
+  train:
+    image: vamc2001/phonepaytrain:v1
+    ports:
+      -  "82:80"
+    deploy:
+      replicas: 3
+  dth:
+    image: vamc2001/phonepaydth:v1
+    ports:
+      - "83:80'
+    deploy:
+      replicas: 3
+      
