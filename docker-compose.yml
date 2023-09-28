@@ -1,7 +1,7 @@
 version: '3'
 services:
   movies:
-    image: vishnu155/bus155:latest
+    image: vamc2001/phonepaymovies:latest
     ports:
       -  "94:80"
     deploy:
