@@ -15,6 +15,6 @@ services:
   dth:
     image: vamc2001/phonepaydth:v1
     ports:
-      -  "93:80'
+      -  "93:80"
     deploy:
       replicas: 3
