@@ -1,20 +1,8 @@
 version: '3'
 services:
-  movies:
-    image: vamc2001/phonepaymovies:latest
+  netflix:
+    image: vamc2001/netflix:latest
     ports:
       -  "84:80"
-    deploy:
-      replicas: 3
-  train:
-    image: vamc2001/phonepaytrain:v1
-    ports:
-      -  "85:80"
-    deploy:
-      replicas: 3
-  dth:
-    image: vamc2001/phonepaydth:v1
-    ports:
-      -  "88:80"
     deploy:
       replicas: 3
