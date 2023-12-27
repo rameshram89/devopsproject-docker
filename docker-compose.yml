@@ -3,6 +3,6 @@ services:
   netflix:
     image: vamc2001/netflix:latest
     ports:
-      -  "84:80"
+      -  "90:80"
     deploy:
       replicas: 3
